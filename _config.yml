@@ -7,8 +7,8 @@ first_name: Lucas
 middle_name:
 last_name: Schorling
 contact_note:
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  DPhil student at the University of Oxford working on AI for physics.
+description: >- # the ">-" symbol means to ignore newlines until "footer_text:" (and drop the trailing one, which breaks Schema.org JSON)
+  PhD student at the University of Oxford working on AI for physics.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: AI for physics, machine learning, quantum computing, quantum technologies # add your own keywords or leave empty
@@ -107,9 +107,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

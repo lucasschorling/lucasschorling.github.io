@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: DPhil student · University of Oxford
+subtitle: PhD student · University of Oxford
 
 profile:
   align: right
@@ -38,7 +38,7 @@ latest_posts:
   .post article .clearfix > ul a:hover { text-decoration-color: currentColor; }
 </style>
 
-I am a DPhil student in Engineering Science at the University of Oxford, working on AI for physics with the
+I am a PhD student in Engineering Science at the University of Oxford, working on AI for physics with the
 [Machine Learning Research Group](https://www.robots.ox.ac.uk/~mosb/bgl/people/) and the [Quantum Device Lab](https://eng.ox.ac.uk/quantumdevicelab/about-us).
 My research sits at the intersection of machine learning, mathematics, physics and quantum computing, from learning the dynamics of quantum systems to
 physics-inspired optimizers for deep learning. I spent six months as a visiting guest researcher at the

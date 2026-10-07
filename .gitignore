@@ -16,6 +16,9 @@ output/playwright/
 test-results/
 vendor
 
+# Private working notes (CV details, original photos) — never publish
+notes/
+
 # Python bytecode from bin/ helper scripts
 __pycache__/
 *.pyc
